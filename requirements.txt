@@ -1,0 +1,4 @@
+black==21.9b0
+requests==2.26.0
+requirements-parser==0.2.0
+git+https://github.com/jsocol/django-jsonview.git@8c87ae8ea7cd0874804a0a1f7d4e93d6ca966c4e#egg=django-jsonview
