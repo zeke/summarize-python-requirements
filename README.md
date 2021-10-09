@@ -16,16 +16,22 @@ Before:
 
 ```
 black==21.9b0
+gunicorn==20.1.0
+pytz==2021.3
 requests==2.26.0
-requirements-parser==0.2.0
+rope==0.20.1
+whitenoise==5.3.0
 ```
 
 After:
 
 ```
 black==21.9b0                            # The uncompromising code formatter.
+gunicorn==20.1.0                         # WSGI HTTP Server for UNIX
+pytz==2021.3                             # World timezone definitions, modern and historical
 requests==2.26.0                         # Python HTTP for Humans.
-requirements-parser==0.2.0               # Parses Pip requirement files
+rope==0.20.1                             # a python refactoring library...
+whitenoise==5.3.0                        # Radically simplified static file serving for WSGI applications
 ```
 
 ## Installation
