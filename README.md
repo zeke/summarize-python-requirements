@@ -1,14 +1,12 @@
 # Summarize Requirements 🐍 📜
 
-> Annotate your Python `requirements.txt` file with summaries of each package.
+Annotate your Python `requirements.txt` file with a short summary of each package.
 
-## What?
+This tool:
 
-This is a tool that:
-
-- Takes a Python `requirements.txt` file as input
-- Fetches the summary of each package from the PyPi registry
-- Outputs an equivalent requirements list with added comments summarizing each package
+- takes a Python `requirements.txt` file as input
+- fetches the summary of each package from the PyPi registry
+- outputs an equivalent requirements list with added comments summarizing each package
 
 It can be used as a Python module or a command line script.
 
