@@ -11,6 +11,10 @@ setup(
   long_description_content_type="text/markdown",
   py_modules=["summarize_requirements"],
   package_dir={'': 'src'},
+  install_requires=[
+    "requests==2.26.0",
+    "requirements-parser==0.2.0",
+  ],
   classifiers=[
     "Environment :: Console",
     "License :: OSI Approved :: MIT License",
