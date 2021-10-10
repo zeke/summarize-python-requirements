@@ -43,8 +43,31 @@ git clone https://github.com/zeke/summarize-requirements
 cd summarize-requirements
 ```
 
-## Usage
+## Command Line Usage
+
+If you run the command with no arguments, it'll look for `requirements.txt` in the current directory:
 
 ```sh
+python index.py
+```
+
+Or you can specify a differnt requirements file:
+
+```
 python index.py ~/path/to/your/requirements.txt > new-requirements.txt
+```
+
+You can also pipe the output back into the file to update it:
+
+```
+python index.py requirements.txt > requirements.txt
+```
+
+## Programmatic Usage
+
+```py
+from summarize import summarize
+
+for line in summarize('requirements.txt'):
+    print(line)
 ```
