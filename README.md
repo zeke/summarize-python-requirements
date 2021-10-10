@@ -4,11 +4,13 @@
 
 ## What?
 
-This is a command line tool that:
+This is a tool that:
 
 - Takes a Python `requirements.txt` file as input
 - Fetches the summary of each package from the PyPi registry
-- Outputs an equivalent `requirements.txt` with added comments summarizing each package
+- Outputs an equivalent requirements list with added comments summarizing each package
+
+It can be used as a Python module or a command line script.
 
 ## Example
 
