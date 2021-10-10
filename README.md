@@ -53,13 +53,13 @@ python index.py
 
 Or you can specify a differnt requirements file:
 
-```
+```sh
 python index.py ~/path/to/your/requirements.txt > new-requirements.txt
 ```
 
 You can also pipe the output back into the file to update it:
 
-```
+```sh
 python index.py requirements.txt > requirements.txt
 ```
 
