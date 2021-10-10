@@ -22,6 +22,7 @@ setup(
     "dev": [
       "check-manifest>=0.47",
       "pytest>=3.7",
+      "twine>=3.4.2",
     ],
   },
   classifiers=[
