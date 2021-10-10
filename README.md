@@ -45,22 +45,18 @@ cd summarize-requirements
 
 ## Command Line Usage
 
+The CLI reads a requirements file as input and prints summarized results as output. It does not overwrite the existing file.
+
 If you run the command with no arguments, it'll look for `requirements.txt` in the current directory:
 
 ```sh
 python index.py
 ```
 
-Or you can specify a differnt requirements file:
+Or you can specify a different file:
 
 ```sh
 python index.py ~/path/to/your/requirements.txt > new-requirements.txt
-```
-
-You can also pipe the output back into the file to update it:
-
-```sh
-python index.py requirements.txt > requirements.txt
 ```
 
 ## Programmatic Usage
