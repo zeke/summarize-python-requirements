@@ -1,4 +1,4 @@
-# Summarize Requirements
+# Summarize Requirements 🐍 📜
 
 > Annotate your Python `requirements.txt` file with summaries of each package.
 
