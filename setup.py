@@ -20,6 +20,7 @@ setup(
   ],
   extras_require={
     "dev": [
+      "check-manifest>=0.47",
       "pytest>=3.7",
     ],
   },
