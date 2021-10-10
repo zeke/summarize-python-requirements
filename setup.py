@@ -15,6 +15,11 @@ setup(
     "requests==2.26.0",
     "requirements-parser==0.2.0",
   ],
+  extras_require={
+    "dev": [
+      "pytest>=3.7",
+    ],
+  },
   classifiers=[
     "Environment :: Console",
     "License :: OSI Approved :: MIT License",
